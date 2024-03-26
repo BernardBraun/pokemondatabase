@@ -1,0 +1,56 @@
+.pokemonList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os Pokémons horizontalmente */
+    text-align: center;
+  }
+  
+  .pokemonContainer {
+    margin: 10px; /* Adiciona um espaçamento entre os Pokémons */
+    border: 2px solid transparent; /* Adiciona uma borda transparente ao redor do contêiner */
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    flex: 0 1 calc(50% - 20px); /* Define a largura dos contêineres de pokemon */
+  }
+  
+  .pokemonContainer:hover {
+    border-color: #000; /* Define a cor de fundo quando o mouse está sobre o Pokémon */
+    cursor: url('../assets/onclick_mouse.png'), auto;
+  }
+  
+  .pokemonBox {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    cursor: url('../assets/onclick_mouse.png'), auto;
+  }
+  
+  .pokemonBox img {
+    width: 100px; /* Define o tamanho da imagem */
+  }
+  
+  .pokemonImage {
+    height: 70%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pokemonContainer {
+      flex-basis: calc(50% - 20px); /* Exibe 2 pokémons por linha em telas menores */
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .pokemonContainer {
+      flex-basis: calc(10% - 20px); /* Exibe 10 pokémons por linha em telas maiores */
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .pokemonContainer {
+      width: calc(50% - 20px); /* Define a largura do contêiner para ocupar metade da largura da linha */
+      max-width: calc(50% - 20px); /* Define a largura máxima do contêiner */
+    }
+  }
+  

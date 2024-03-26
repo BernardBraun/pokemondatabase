@@ -1,0 +1,29 @@
+.detailsContainer {
+    display: flex;
+    align-items: flex-end; /* Alinha os itens no início verticalmente */
+  }
+  
+  .pokemonDetails {
+    flex: 1;
+    border-color: #000;
+    border-radius: 6px;
+    border-style: solid;
+    padding: 20px;
+  }
+  
+  .professorImg {
+    margin-left: 20px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  @media screen and (max-width: 450px) { /* Adicionado um espaço aqui */
+    .professorImg {
+      display: none;
+    }
+  }

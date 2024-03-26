@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Ajusta a direção dos itens para uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens da paginação */
+}
+
+.page-item {
+    list-style: none;
+}
+
+.page-item a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+@media screen and(max-width: 425px){
+    .container {
+      height: 50%;
+    }
+  }
