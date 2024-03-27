@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c18cdf47.css",
+    "main.js": "/static/js/main.b29b1a98.js",
+    "static/js/453.cc7ad123.chunk.js": "/static/js/453.cc7ad123.chunk.js",
+    "static/media/Pokemon_logo.png": "/static/media/Pokemon_logo.f0f37e8b05111bace0b0.png",
+    "static/media/oak_professor.png": "/static/media/oak_professor.00da19a7ee97f0244828.png",
+    "index.html": "/index.html",
+    "main.c18cdf47.css.map": "/static/css/main.c18cdf47.css.map",
+    "main.b29b1a98.js.map": "/static/js/main.b29b1a98.js.map",
+    "453.cc7ad123.chunk.js.map": "/static/js/453.cc7ad123.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c18cdf47.css",
+    "static/js/main.b29b1a98.js"
+  ]
+}
